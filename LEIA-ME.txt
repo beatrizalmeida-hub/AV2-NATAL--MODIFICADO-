@@ -1,0 +1,46 @@
+ENCANTO DE NATAL - PROJETO AV2 DESENVOLVIMENTO WEB
+
+SEGMENTO: Decoração natalina
+LOJA: Encanto de Natal
+TURMA: 1º ano Técnico em Informática
+INTEGRANTES: preencher com os nomes da equipe
+PROFESSOR: Samuel Elias
+
+COMO ABRIR
+1. Extraia a pasta do arquivo ZIP.
+2. Abra o arquivo index.html em um navegador.
+3. Para publicar, envie todos os arquivos para um repositório público no GitHub.
+4. No GitHub, acesse Settings > Pages, selecione a branch main e a pasta /(root).
+
+PÁGINAS
+- index.html: página inicial
+- produtos.html: catálogo com 50 produtos, busca, filtro e ordenação
+- sobre.html: história fictícia, missão, visão, valores e contagem regressiva
+- galeria.html: inspirações de decoração
+- contato.html: formulário com validação
+
+RECURSOS JAVASCRIPT IMPLEMENTADOS
+1. Slideshow/carrossel automático com botões anterior/próximo e indicadores.
+2. Parallax na página inicial.
+3. Efeito sonoro de sino acionado pelo usuário (sem autoplay).
+4. Cards dinâmicos gerados a partir de array.
+5. Busca e filtro por categoria.
+6. Carrinho demonstrativo com localStorage.
+7. Contagem regressiva para o Natal.
+8. Validação de formulário.
+9. Menu hambúrguer responsivo.
+10. Modal de confirmação ao adicionar produto.
+11. Efeito de neve na página inicial.
+12. Animação ao rolar.
+13. Botão voltar ao topo.
+14. Ordenação por preço e nome.
+
+OBSERVAÇÕES IMPORTANTES
+- O catálogo contém 50 objetos e 50 ilustrações SVG locais criadas para este projeto.
+- Os dados de contato são fictícios.
+- O formulário apenas demonstra validação no navegador; não envia e-mail de verdade.
+- O botão de som gera um sino simples pelo navegador, não toca uma música gravada.
+- O projeto usa HTML, CSS e JavaScript puros. Google Fonts é carregado externamente.
+- Antes da entrega, a equipe deve testar todas as páginas, revisar os códigos e personalizar textos, nomes e apresentação.
+- O roteiro e a gravação do vídeo de apresentação de pelo menos 15 minutos ainda devem ser feitos pela equipe.
+- Inserir aqui o link do GitHub e o link do site publicado no GitHub Pages.

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Encanto de Natal: decora&ccedil;&atilde;o e inspira&ccedil;&atilde;o para as festas." name="description"/>
+  <title>
+   Contato | Encanto de Natal
+  </title>
+  <link href="img/produtos/produto-01.svg" rel="icon"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="topline">
+    Frete especial para espalhar o encanto do Natal 
+  </div>
+  <header id="header">
+   <div class="navwrap">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      ✦
+     </span>
+     Encanto de Natal
+    </a>
+    <button aria-expanded="false" aria-label="Abrir menu" class="menu-btn">
+     ☰
+    </button>
+    <nav>
+     <a data-page="index" href="index.html">
+      In&iacute;cio
+     </a>
+     <a data-page="produtos" href="produtos.html">
+      Produtos
+     </a>
+     <a data-page="sobre" href="sobre.html">
+      Nossa hist&oacute;ria
+     </a>
+     <a data-page="galeria" href="galeria.html">
+      Inspira&ccedil;&otilde;es
+     </a>
+     <a class="active" data-page="contato" href="contato.html">
+      Contato
+     </a>
+    </nav>
+    <div class="nav-actions">
+     <span class="cart-pill">
+      Sacola:
+      <b id="cart-count">
+       0
+      </b>
+     </span>
+    </div>
+   </div>
+  </header>
+  <main>
+   <section class="page-hero">
+    <div class="container">
+     <span class="eyebrow">
+      Estamos aqui
+     </span>
+     <h1>
+      Vamos conversar?
+     </h1>
+     <p>
+      Envie sua d&uacute;vida, sugest&atilde;o ou mensagem. Ser&aacute; um prazer falar com voc&ecirc;!
+     </p>
+    </div>
+   </section>
+   <section class="container">
+    <div class="contact-grid">
+     <aside class="contact-card">
+      <span class="eyebrow">
+       Atendimento
+      </span>
+      <h2>
+       Fale com a gente
+      </h2>
+      <p>
+       <b>
+        E-mail
+       </b>
+       <br/>
+       contato@encantodenatal.example
+      </p>
+      <p>
+       <b>
+        Telefone
+       </b>
+       <br/>
+       (19) 4000-2026
+      </p>
+      <p>
+       <b>
+        Endere&ccedil;o
+       </b>
+       <br/>
+       Rua das Estrelas, 25 &middot; Vila Natalina
+      </p>
+      <p>
+       <small>
+        Informa&ccedil;&otilde;es fict&iacute;cias para fins escolares.
+       </small>
+      </p>
+     </aside>
+     <form class="form-card" id="contact-form" novalidate="">
+      <h2>
+       Envie uma mensagem
+      </h2>
+      <div class="field">
+       <label for="name">
+        Nome
+       </label>
+       <input id="name" placeholder="Seu nome" required=""/>
+      </div>
+      <div class="field">
+       <label for="email">
+        E-mail
+       </label>
+       <input id="email" placeholder="voce@email.com" required="" type="email"/>
+      </div>
+      <div class="field">
+       <label for="subject">
+        Assunto
+       </label>
+       <select id="subject">
+        <option>
+         D&uacute;vida
+        </option>
+        <option>
+         Sugest&atilde;o
+        </option>
+        <option>
+         Outro
+        </option>
+       </select>
+      </div>
+      <div class="field">
+       <label for="message">
+        Mensagem
+       </label>
+       <textarea id="message" placeholder="Escreva sua mensagem..." required=""></textarea>
+      </div>
+      <button class="btn" type="submit">
+       Enviar mensagem
+      </button>
+      <p aria-live="polite" class="form-message" id="form-message">
+      </p>
+     </form>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="container">
+    <div class="footer-grid">
+     <div>
+      <a class="brand" href="index.html" style="color:white">
+       <span class="brand-mark">
+        ✦
+       </span>
+       Encanto de Natal
+      </a>
+      <p>
+       Pequenos detalhes, grandes mem&oacute;rias. Decora&ccedil;&atilde;o para deixar seu Natal ainda mais especial.
+      </p>
+     </div>
+     <div>
+      <b>
+       Explore
+      </b>
+      <a href="produtos.html">
+       Produtos
+      </a>
+      <a href="sobre.html">
+       Nossa hist&oacute;ria
+      </a>
+      <a href="galeria.html">
+       Inspira&ccedil;&otilde;es
+      </a>
+     </div>
+     <div>
+      <b>
+       Atendimento
+      </b>
+      <a href="contato.html">
+       Fale conosco
+      </a>
+      <a href="contato.html">
+       D&uacute;vidas e sugest&otilde;es
+      </a>
+      <span>
+       Seg. a sex., 9h &agrave;s 18h
+      </span>
+     </div>
+    </div>
+    <div class="copyright">
+     &copy; 2026 Encanto de Natal &middot; Loja fict&iacute;cia criada para projeto escolar.
+    </div>
+   </div>
+  </footer>
+  <button aria-label="Voltar ao topo" class="back-top">
+   &uarr;
+  </button>
+  <div class="modal" id="modal">
+   <div class="modal-box">
+    <button aria-label="Fechar" class="modal-close">
+     &times;
+    </button>
+    <div id="modal-content">
+    </div>
+   </div>
+  </div>
+  <script src="js/produtos.js">
+  </script>
+  <script src="js/script.js">
+  </script>
+ </body>
+</html>

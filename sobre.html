@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Encanto de Natal: decora&ccedil;&atilde;o e inspira&ccedil;&atilde;o para as festas." name="description"/>
+  <title>
+   Nossa hist&oacute;ria | Encanto de Natal
+  </title>
+  <link href="img/produtos/produto-01.svg" rel="icon"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="topline">
+    Frete especial para espalhar o encanto do Natal 
+  </div>
+  <header id="header">
+   <div class="navwrap">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      ✦
+     </span>
+     Encanto de Natal
+    </a>
+    <button aria-expanded="false" aria-label="Abrir menu" class="menu-btn">
+     ☰
+    </button>
+    <nav>
+     <a data-page="index" href="index.html">
+      In&iacute;cio
+     </a>
+     <a data-page="produtos" href="produtos.html">
+      Produtos
+     </a>
+     <a class="active" data-page="sobre" href="sobre.html">
+      Nossa hist&oacute;ria
+     </a>
+     <a data-page="galeria" href="galeria.html">
+      Inspira&ccedil;&otilde;es
+     </a>
+     <a data-page="contato" href="contato.html">
+      Contato
+     </a>
+    </nav>
+    <div class="nav-actions">
+     <span class="cart-pill">
+      Sacola:
+      <b id="cart-count">
+       0
+      </b>
+     </span>
+    </div>
+   </div>
+  </header>
+  <main>
+   <section class="page-hero">
+    <div class="container">
+     <span class="eyebrow">
+      Quem somos
+     </span>
+     <h1>
+      O encanto est&aacute; em compartilhar.
+     </h1>
+     <p>
+      Uma loja criada para celebrar o aconchego, a criatividade e a alegria de decorar.
+     </p>
+     <div class="countdown" id="countdown">
+     </div>
+    </div>
+   </section>
+   <section class="container">
+    <div class="about-grid">
+     <div>
+      <span class="eyebrow">
+       Nossa hist&oacute;ria
+      </span>
+      <h2>
+       Uma ideia que nasceu do esp&iacute;rito natalino
+      </h2>
+      <p>
+       A Encanto de Natal &eacute; uma loja fict&iacute;cia criada por pessoas apaixonadas pela &eacute;poca mais iluminada do ano. A ideia &eacute; reunir pe&ccedil;as que ajudem cada fam&iacute;lia a construir suas pr&oacute;prias tradi&ccedil;&otilde;es.
+      </p>
+      <p>
+       Acreditamos que uma &aacute;rvore decorada, uma mesa preparada com carinho ou uma luz acesa na janela podem transformar momentos simples em lembran&ccedil;as especiais.
+      </p>
+     </div>
+     <div aria-label="Ilustra&ccedil;&atilde;o de &aacute;rvore de Natal" class="about-art">
+      <div class="about-art">
+    <img src="data:image/jpeg;base64,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"
+         alt="Logo da Encanto de Natal">
+</div>
+     </div>
+    </div>
+    <div class="values">
+     <article class="value">
+      <h3>
+       Miss&atilde;o
+      </h3>
+      <p>
+       Inspirar celebra&ccedil;&otilde;es acolhedoras por meio da decora&ccedil;&atilde;o.
+      </p>
+     </article>
+     <article class="value">
+      <h3>
+       Vis&atilde;o
+      </h3>
+      <p>
+       Ser lembrada pela criatividade e pelo carinho em cada detalhe.
+      </p>
+     </article>
+     <article class="value">
+      <h3>
+       Valores
+      </h3>
+      <p>
+       Afeto, criatividade, respeito e esp&iacute;rito de comunidade.
+      </p>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="container">
+    <div class="footer-grid">
+     <div>
+      <a class="brand" href="index.html" style="color:white">
+       <span class="brand-mark">
+        ✦
+       </span>
+       Encanto de Natal
+      </a>
+      <p>
+       Pequenos detalhes, grandes mem&oacute;rias. Decora&ccedil;&atilde;o para deixar seu Natal ainda mais especial.
+      </p>
+     </div>
+     <div>
+      <b>
+       Explore
+      </b>
+      <a href="produtos.html">
+       Produtos
+      </a>
+      <a href="sobre.html">
+       Nossa hist&oacute;ria
+      </a>
+      <a href="galeria.html">
+       Inspira&ccedil;&otilde;es
+      </a>
+     </div>
+     <div>
+      <b>
+       Atendimento
+      </b>
+      <a href="contato.html">
+       Fale conosco
+      </a>
+      <a href="contato.html">
+       D&uacute;vidas e sugest&otilde;es
+      </a>
+      <span>
+       Seg. a sex., 9h &agrave;s 18h
+      </span>
+     </div>
+    </div>
+    <div class="copyright">
+     &copy; 2026 Encanto de Natal &middot; Loja fict&iacute;cia criada para projeto escolar.
+    </div>
+   </div>
+  </footer>
+  <button aria-label="Voltar ao topo" class="back-top">
+   &uarr;
+  </button>
+  <div class="modal" id="modal">
+   <div class="modal-box">
+    <button aria-label="Fechar" class="modal-close">
+     &times;
+    </button>
+    <div id="modal-content">
+    </div>
+   </div>
+  </div>
+  <script src="js/produtos.js">
+  </script>
+  <script src="js/script.js">
+  </script>
+ </body>
+</html>
